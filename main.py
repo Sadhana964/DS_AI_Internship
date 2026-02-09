@@ -1,11 +1,9 @@
-'''def add(a, b):
-    return a + b
+file = open("example2.text","a")
+file.write("Datasciece and AI/ML")
+file.write("AIML Internship")
+file.close()
 
-print(add(4, 5))
-'''
-from Calculation import Calculation
-obj = Calculation()
-print(obj.add(4,5))
-print(obj.product(4,5))
+
+
 
    
